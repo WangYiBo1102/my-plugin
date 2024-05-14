@@ -1,0 +1,14 @@
+{
+  "name": "umi-plugin-digital",
+  "version": "0.0.4",
+  "description": "an umi plugin for digital-lotus",
+  "main": "./src/index.js",
+  "keywords": [
+    "umi"
+  ],
+  "author": "FED",
+  "dependencies": {
+    "digital-lotus-cli": "^0.0.3",
+    "esbuild": "^0.15.12"
+  }
+}

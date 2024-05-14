@@ -1,0 +1,40 @@
+{
+  "name": "digital-lotus-cli",
+  "version": "0.0.3",
+  "description": "fed cli tool base digital-lotus",
+  "bin": {
+    "digital-lotus-cli": "./bin/cli.js",
+    "digital": "./bin/cli.js"
+  },
+  "main": "./lib/index.js",
+  "files": [
+    "bin",
+    "cmd",
+    "lib",
+    "plugins",
+    "shared",
+    "templates",
+    "config.js",
+    "README.md"
+  ],
+  "author": "FED",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/generator": "^7.17.7",
+    "@babel/parser": "^7.17.8",
+    "@babel/template": "^7.16.7",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.20.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "ejs": "^3.1.8",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "git-clone": "^0.2.0",
+    "glob": "^8.0.3",
+    "inquirer": "^8.2.2",
+    "ora": "^5.4.1",
+    "prettier": "^2.7.1"
+  }
+}
